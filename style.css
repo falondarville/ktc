@@ -1,0 +1,82 @@
+h1 {
+	font-family: 'Abel', sans-serif;
+	text-align: center;
+	font-size: 56px;
+	margin-bottom: -10px;
+	margin-top: 160px;
+}
+
+.tagline {
+	font-family: 'Parisienne', cursive;
+	text-align: center;
+	position: relative;
+	left: 150px;
+}
+
+body { 
+   overflow-x: hidden;
+}
+
+.logo-font {
+	font-weight: bold;
+	font-family: 'Abel', sans-serif;
+	font-size: 26px;
+}
+
+body {
+	background-color: #f7f7f7;
+}
+
+.story-block {
+	margin-top: 80px;
+	padding-top: 50px;
+}
+
+.offer-block {
+	margin-top: 50px;
+	text-align: center;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+}
+
+.rale-font {
+	font-family: 'Raleway', sans-serif;
+	color: black;
+}
+
+.contrast-background {
+	background-color: white;
+	height: 230px;
+  	width: 100%;
+  	margin: 0 auto;
+}
+
+.contrast-background-ext {
+	height: 260px;
+}
+
+.card-list {
+	margin-bottom: 0;
+}
+
+.find-title {
+	text-align: center;
+}
+
+.find-block {
+	padding-top: 50px;
+}
+
+.card-block {
+	margin-bottom: 80px;
+}
+
+.footer-text {
+	text-align: center;
+}
+
+.card {
+	height: 330px;
+}

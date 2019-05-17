@@ -3,8 +3,21 @@ h1 {
 	text-align: center;
 	font-size: 56px;
 	margin-bottom: -10px;
-	margin-top: 160px;
+	margin-top: 220px;
 }
+
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 40px solid white;
+}
+
+.arrow {
+	margin: auto;
+	width: 10%;
+} 
 
 .tagline {
 	font-family: 'Parisienne', cursive;
@@ -13,8 +26,24 @@ h1 {
 	left: 150px;
 }
 
+@media only screen and (max-width: 590px) {
+	.tagline {
+		left: 0px
+	}
+	.arrow-down {
+		display: none;
+	}
+}
+
 body { 
    overflow-x: hidden;
+}
+
+#coming-soon {
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 40px;
+	font-family: 'Raleway', sans-serif;
 }
 
 .logo-font {
@@ -24,7 +53,7 @@ body {
 }
 
 body {
-	background-color: #f7f7f7;
+	background-color: white;
 }
 
 .story-block {
@@ -47,26 +76,32 @@ p {
 }
 
 .contrast-background {
-	background-color: white;
+	/*background-color: #f7f7f7;*/
+	background-color: #323232;
 	height: 230px;
   	width: 100%;
   	margin: 0 auto;
 }
 
 .contrast-background-ext {
-	height: 260px;
+	height: 180px;
 }
 
 .card-list {
 	margin-bottom: 0;
 }
 
+a {
+	color: white;
+}
+
 .find-title {
-	text-align: center;
+	text-align: right;
+	color: white;
 }
 
 .find-block {
-	padding-top: 50px;
+	padding-top: 30px;
 }
 
 .card-block {
@@ -74,7 +109,9 @@ p {
 }
 
 .footer-text {
-	text-align: center;
+	text-align: right;
+	font-size: 12px;
+	color: white;
 }
 
 .card {

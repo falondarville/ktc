@@ -85,7 +85,7 @@ p {
 
 .contrast-background-ext {
 	height: 180px;
-	position: fixed;
+	position: relative;
   	bottom: 0;
   	width: 100%;
 }
